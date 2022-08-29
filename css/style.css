@@ -15,19 +15,26 @@ body {
     padding-bottom: 0.5em;
 }
 
+.mainBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .container {
+    display: flex;
+    justify-content: space-between;
     background: #ffffff;
     border-radius: 10px 10px;
     border: 1px solid #ffca28;
     border-radius: 10px 10px;
     overflow: hidden;
     line-height: 23px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     width: fit-content;
     margin-top: 15px;
-    display: inline-block
+    display: inline-block;
+    position: relative;
 }
 
 .main {
